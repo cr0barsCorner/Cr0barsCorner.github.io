@@ -1,0 +1,106 @@
+@font-face
+{
+	font-family: custom_font;
+	src: url(resources/interface/joystix-monospace.otf);
+}
+
+body
+{
+	background-image: url(resources/interface/background-main.jpg);
+}
+
+.container
+{
+	width: 800px;
+	padding: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: auto;
+	margin-top: 50px;
+	font-family: custom_font;
+	font-size: 14px;
+	outline: 5px;
+	outline-style: solid;
+	outline-color: #dfdfdf;
+	text-align: center;
+	color: #dfdfdf;
+	background: #060E25;
+}
+
+.links
+{
+	width: 800px;
+	padding: 0px;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	margin: auto;
+	margin-top: 50px;
+	font-family: custom_font;
+	font-size: 16px;
+	outline: 5px;
+	outline-style: solid;
+	outline-color: #dfdfdf;
+	text-align: center;
+	color: #dfdfdf;
+	background: #060E25;
+}
+
+.webring-grid 
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  margin: 0 0.5em;
+}
+
+.webring-container 
+{
+  text-align: center;
+}
+.webring-container img 
+{
+  width: 240px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+a
+{
+	margin: 5px;
+}
+
+a:link 
+{
+  color: #dfdfdf;
+}
+
+a:visited 
+{
+  color: green;
+}
+
+a:hover 
+{
+  color: hotpink;
+}
+
+a:active 
+{
+  color: blue;
+}
+
+::-webkit-scrollbar 
+{
+  display: none;
+}
+
+:root 
+{
+  scrollbar-width: none;
+}
+
+hr.dashed
+{ 
+  border-top: 2px dashed #fff;
+  border-bottom: 2px dashed #fff;
+}
