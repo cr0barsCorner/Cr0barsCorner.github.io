@@ -4,9 +4,16 @@
 	src: url(resources/interface/joystix-monospace.otf);
 }
 
-body
+.body-background-vertical-01
 {
 	background-image: url(resources/interface/background-main.jpg);
+	background-size: auto 100%;
+}
+
+.body-background-space
+{
+	background-image: url(resources/interface/background-space.png);
+	background-size: 100% auto;
 }
 
 .container
