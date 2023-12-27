@@ -57,11 +57,27 @@ body
 {
   text-align: center;
 }
+
 .webring-container img 
 {
   width: 240px;
   height: 60px;
   margin: 0 auto;
+}
+
+.boards-grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  margin: 2em 0.5em;
+}
+
+.boards-container img 
+{
+  width: 64px;
+  height: 64px;
+  margin: auto auto;
 }
 
 a
