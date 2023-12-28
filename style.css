@@ -34,6 +34,24 @@
 	background: #060E25;
 }
 
+.home-stats-container
+{
+	width: 400px;
+	padding: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: auto;
+	margin-top: 50px;
+	font-family: custom_font;
+	font-size: 14px;
+	outline: 5px;
+	outline-style: solid;
+	outline-color: #dfdfdf;
+	text-align: center;
+	color: #dfdfdf;
+	background: #060E25;
+}
+
 .links
 {
 	width: 800px;
