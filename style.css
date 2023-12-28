@@ -36,7 +36,7 @@
 
 .home-stats-container
 {
-	width: 400px;
+	width: 600px;
 	padding: 0px;
 	padding-top: 2px;
 	padding-bottom: 2px;
@@ -72,37 +72,51 @@
 
 .webring-grid 
 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  margin: 0 0.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0.5em;
+	margin: 0 0.5em;
 }
 
 .webring-container 
 {
-  text-align: center;
+	text-align: center;
 }
 
 .webring-container img 
 {
-  width: 240px;
-  height: 60px;
-  margin: 0 auto;
+	width: 240px;
+	height: 60px;
+	margin: 0 auto;
 }
 
 .boards-grid
 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5em;
-  margin: 2em 0.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 0.5em;
+	margin: 2em 0.5em;
 }
 
 .boards-container img 
 {
-  width: 64px;
-  height: 64px;
-  margin: auto auto;
+	width: 64px;
+	height: 64px;
+	margin: auto auto;
+}
+
+.catgirl-counter-grid
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 1em 0.5em;
+}
+
+.catgirl-counter
+{
+	width: 64px;
+	height: 164px;
+	margin: auto auto;
 }
 
 a
@@ -112,36 +126,36 @@ a
 
 a:link 
 {
-  color: #dfdfdf;
+	color: #dfdfdf;
 }
 
 a:visited 
 {
-  color: green;
+	color: green;
 }
 
 a:hover 
 {
-  color: hotpink;
+	color: hotpink;
 }
 
 a:active 
 {
-  color: blue;
+	color: blue;
 }
 
 ::-webkit-scrollbar 
 {
-  display: none;
+	display: none;
 }
 
 :root 
 {
-  scrollbar-width: none;
+	scrollbar-width: none;
 }
 
 hr.dashed
 { 
-  border-top: 2px dashed #fff;
-  border-bottom: 2px dashed #fff;
+	border-top: 2px dashed #fff;
+	border-bottom: 2px dashed #fff;
 }
