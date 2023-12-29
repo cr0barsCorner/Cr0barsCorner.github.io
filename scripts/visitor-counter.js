@@ -20,7 +20,7 @@ const counter_ids = [
 	"counter-hundred-thousand",
 	"counter-million"
 ];
-const API_target = "http://localhost:3002/api?";
+const API_target = "https://website-backend-auok.onrender.com/api?";
 
 var total_visitors = 0;
 var total_pageviews = 0;
