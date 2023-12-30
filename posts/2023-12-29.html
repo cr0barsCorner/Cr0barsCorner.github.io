@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../style.css"/>
+		<title>Cr0bar's Corner</title>
+	</head>
+	<body class="body-background-space">
+		<div class="container">
+			<h1>
+				Latest Posts
+			</h1>
+		</div>
+		<div class="links">
+			<a href="../index.html">Return</a>
+		</div>
+		<div class="container">
+			<h2 style="text-align: left; padding-left: 16px; padding-right: 16px;">
+				Node js and a janky webserver
+			</h2>
+			<p style="text-align: left; padding-left: 16px; padding-right: 16px;">
+				2023-12-29
+			</p>
+			<hr class="dashed">
+			<p style="text-align: left; padding-left: 16px; padding-right: 16px;">
+				I have managed to secure a webserver for the node js backend! Turns out Render.com
+				has a free tier that's perfect for what I'm trying to do. Now there is a small issue
+				that being there is an idle time out and the 'disk' is non persistant. So after 15
+				minutes without any api calls the box spools down and then the counter reverts to 
+				the original state upon next start up. This kind of sucks but lukily the solution
+				is relativly straight forwards. I have a small node js app running on a one of my
+				local systems that just pings the server every 12-14 minutes. This keeps the 
+				webserver from turning off and keeps the counter up to date. Now I just need some
+				way to back up the data localy so if my account ever gets terminated or something
+				happens I don't lose track of the visitor count. That's a problem for another day
+				though. For now I'm happy with the results, and I didn't have to spend a dime! Now
+				is this solution increadibly scuffed? 100% however I have never worked with any 
+				sort of website networking like this so I'm kind of fumbling around in the dark.
+				To be honest the fact that it works at all is kind of a miracle so I'm tempted to
+				just leave it alone and not touch it. As far as I'm concered it's basically magic!
+			</p>
+			<img src="../resources/media/wizard-pepe.gif" alt="">
+		</div>
+	</body>
+</html>
