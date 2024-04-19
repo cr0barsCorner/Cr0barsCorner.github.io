@@ -1,7 +1,7 @@
 @font-face
 {
 	font-family: custom_font;
-	src: url(resources/interface/joystix-monospace.otf);
+	src: url(resources/interface/dpcomic.ttf);
 }
 
 .body-background-vertical-01
@@ -25,7 +25,7 @@
 	margin: auto;
 	margin-top: 50px;
 	font-family: custom_font;
-	font-size: 14px;
+	font-size: 20px;
 	outline: 5px;
 	outline-style: solid;
 	outline-color: #dfdfdf;
@@ -43,7 +43,7 @@
 	margin: auto;
 	margin-top: 50px;
 	font-family: custom_font;
-	font-size: 14px;
+	font-size: 24px;
 	outline: 5px;
 	outline-style: solid;
 	outline-color: #dfdfdf;
@@ -61,7 +61,7 @@
 	margin: auto;
 	margin-top: 50px;
 	font-family: custom_font;
-	font-size: 16px;
+	font-size: 24px;
 	outline: 5px;
 	outline-style: solid;
 	outline-color: #dfdfdf;
