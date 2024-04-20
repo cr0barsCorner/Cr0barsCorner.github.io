@@ -6,15 +6,15 @@
 
 .body-background-vertical-01
 {
-	background-image: url(resources/interface/background-main.jpg);
-	background-size: auto 100%;
+	background-image: url(resources/interface/background-animated-stars.gif);
+	background-size: auto 20%;
 	background-attachment: fixed;
 }
 
 .body-background-space
 {
-	background-image: url(resources/interface/background-space.png);
-	background-size: 100% auto;
+	background-image: url(resources/interface/background-animated-stars.gif);
+	background-size: auto 20%;
 	background-attachment: fixed;
 }
 
